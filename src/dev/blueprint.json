@@ -1,0 +1,115 @@
+{
+    "info": {
+        "projectName": "HelloWorld",
+        "authorName": "Christos K.",
+        "email": "koutsiaris@gmail.com"
+    },
+    "data": {},
+    "view": {
+        "common": {
+            "header": {
+                "logo": "My Website",
+                "links": [{
+                    "name": "Menu",
+                    "url": "#"
+                }]
+            },
+            "footer": {
+                "madeBy": "C.Koutsiaris"
+            }
+        },
+        "blocks": [{
+                "id": "top-section",
+                "rows": [{
+                    "columns": [{
+                        "title": "Top section",
+                        "text": "Lorem ipsum dolor sit amet, ius movet denique an. His no altera epicuri. Vel ut utinam eleifend laboramus, sed oblique vulputate ea, sumo option est no."
+                    }]
+                }]
+            },
+            {
+                "id": "product-section",
+                "rows": [{
+                    "columns": [{
+                            "title": "Product 1",
+                            "text": "Novum persecuti sit no, vidit animal noluisse ut his, te mel novum ancillae voluptatibus."
+                        },
+                        {
+                            "title": "Product 2",
+                            "text": "Te mei minim consetetur, eos ex mucius tractatos erroribus."
+                        },
+                        {
+                            "title": "Product 3",
+                            "text": "Elit facete volutpat mel cu, duo cu putent tincidunt. Ei ludus laudem disputando his, malis harum sapientem quo id, ne mea oratio corpora suavitate."
+                        }
+                    ]
+                }]
+            },
+            {
+                "id": "who-we-are-section",
+                "rows": [{
+                    "columns": [{
+                            "title": "Who 1",
+                            "text": "Id nec prompta dissentias, ut vulputate honestatis cum. Cu eos modus constituam."
+                        },
+                        {
+                            "title": "Who 2",
+                            "text": "Stet evertitur his an."
+                        }
+                    ]
+                }]
+            },
+            {
+                "id": "customers-section",
+                "rows": [{
+                        "columns": [{
+                                "title": "Customers 1",
+                                "text": "No liber omnes complectitur eam, et eos percipitur philosophia."
+                            },
+                            {
+                                "title": "Customers 2",
+                                "text": "Nec facete nominati gloriatur cu, nec id oblique mandamus. Duo sanctus repudiare ex."
+                            }
+                        ]
+                    },
+                    {
+                        "columns": [{
+                                "title": "Customers 1",
+                                "text": "Dicant nominati sea ei."
+                            },
+                            {
+                                "title": "Customers 2",
+                                "text": "Cum doming maiestatis ut. Id dolore lucilius mel, in hinc delectus abhorreant sit, alia exerci consectetuer ex has. Lobortis intellegam duo cu."
+                            }
+                        ]
+                    }
+                ]
+            },
+            {
+                "id": "about-section",
+                "rows": [{
+                    "columns": [{
+                        "title": "About 1",
+                        "text": "TVocibus blandit ei qui, id quo platonem accusamus philosophia, et quis maluisset constituto usu. Et ius mutat fuisset."
+                    }]
+                }]
+            }
+        ],
+        "pages": [{
+                "name": "index",
+                "sections": [
+                    "top-section",
+                    "product-section",
+                    "who-we-are-section",
+                    "customers-section"
+                ]
+            },
+            {
+                "name": "about",
+                "sections": [
+                    "about-section"
+                ]
+            }
+        ]
+    }
+}
